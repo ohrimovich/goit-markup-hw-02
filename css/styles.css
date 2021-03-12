@@ -69,6 +69,13 @@ body {
   color: var(--secondary-text-color);
 }
 
+.contact-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .hero {
   background-color: var(--dark-background-color);
 }
@@ -89,6 +96,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -147,12 +155,17 @@ body {
   color: var(--primary-white-color);
 }
 
+.footer-contact-list {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Potrfolio */
 
-.our-works-list-item {
+.our-works-list-item button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
 }
